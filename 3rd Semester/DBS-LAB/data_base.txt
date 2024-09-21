@@ -1,0 +1,160 @@
+ENO
+ENO, PNO
+PNO
+No Primary key
+EMPNO
+No Primary key
+
+
+
+Candidate key Title in emp
+Forign key Title in pay
+
+Candidate key PNO in  ASG
+Forign key PNO in PROJ
+
+Candidate key DEPTNO in  EMPLOYEE
+Forign key DEPTNO in DEPT
+
+
+
+
+CREATE TABLE EMP
+(ENO VARCHAR(2) NOT NULL,
+ENAME VARCHAR(7),
+TITLE VARCHAR(11))
+;
+
+INSERT INTO EMP (ENO,ENAME,TITLE)
+VALUES
+        ('E1', 'John',  'Elec.Eng'),
+         ('E2', 'Smith',  'Syst.Anal'),
+        ('E3', 'Lee',  'Elec.Eng'),
+        ('E4', 'Michael',  'Programmer'),
+         ('E5', 'Miller',  'Syst.Anal'),
+        ('E6', 'Davis',  'Elec.Eng'),
+        ('E7', 'Jones',  'Mech.Eng'),
+        ('E8', 'Davis',  'Syst.Anal'),
+        ('E9', 'Umair',  'Mech.Eng'),
+        ('10', 'Mark',  'Chem.Eng'),
+        ('11', 'Harry',  'Bio.Eng'),
+        ('12', 'Hemen',  'Syst.Eng'),
+         ('13', 'Keller',  'Anal.Eng'),
+        ('14', 'Miller',  'Programmer');
+
+
+
+
+
+CREATE TABLE ASG
+(ENO VARCHAR(2) NOT NULL,
+PNO VARCHAR(2),
+RESP VARCHAR(12), 
+Dur INT(10)
+);
+
+
+INSERT INTO ASG (ENO,PNO,RESP,DUR)
+VALUES 	( 'E2' , 'P1' , 'Analyst' , 1),
+	( 'E2' , 'P2' , 'Analyst' , 22),
+	( 'E3' , 'P3' , 'Consultant' , 6),
+	( 'E3' , 'P4' , 'Engineer' , 3),
+	( 'E4' , 'P2' , 'Programmer' , 4),
+	( 'E8' , 'P2' , 'Manager' , 12),
+	( 'E6' , 'P4' , 'Engineer' , 10),
+	( 'E7' , 'P1' , 'Engineer' , 11);
+
+
+
+
+CREATE TABLE PROJ
+        (PNO VARCHAR(2),
+         PNAME VARCHAR(20),
+         BUDGET INT(100));
+
+
+
+
+INSERT INTO PROJ (PNO,PNAME,BUDGET)
+VALUES 
+  ('P1',  'Instrumentation', 150000),
+  ('P2', 'Database Prog', 135000),
+  ('P3', 'CAD/CAM', 250000),
+  ('P4', 'Maintenance', 310000),
+  ('P5', 'Q/A', 999999);
+
+
+
+CREATE TABLE PAY	
+        (TITLE VARCHAR(25),
+         SAL INT(10)
+         );
+
+
+INSERT INTO PAY (TITLE,SAL) 
+VALUES 
+  ('Elect.Eng' , 34000),
+  ('Syst.Anal' , 40000),
+  ('Mech.Eng' , 27000),
+  ('Anal.Eng' , 43000),
+  ('Programmer' , 40000);
+
+
+
+
+
+CREATE TABLE EMP
+       (EMPNO   INT(10) NOT NULL,
+        ENAME VARCHAR(10),
+        JOB VARCHAR(9),
+        MGR   INT(255),
+        HIREDATE DATE,
+        SAL   INT(255),
+        COMM   INT(255),
+        DEPTNO   INT(255));
+
+
+
+INSERT INTO EMPLOYEE(EMPNO,ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO)
+VALUES
+ (7369, 'SMITH',  'CLERK',     7902  , '2002-10-01',  800, NULL, 20),
+ (7499, 'ALLEN',  'SALESMAN',  7698  , '2004-11-02', 1600,  300, 30) ,
+ (7521, 'WARD',   'SALESMAN',  7698  , '2006-06-07', 1250,  500, 30) ,
+ (7566, 'JONES',  'MANAGER',   7839  , '2004-04-23',  2975, NULL, 20) ,
+ (7654, 'MARTIN', 'SALESMAN',  7698  , '2012-03-13', 1250, 1400, 30) ,
+ (7698, 'BLAKE',  'MANAGER',   7839  , '2003-01-16',  2850, NULL, 30) ,
+ (7782, 'CLARK',  'MANAGER',   7839  , '2011-2-14',  2450, NULL, 10) ,
+ (7788, 'SCOTT',  'ANALYST',   7566  , '2000-06-27', 3000, NULL, 20) ,
+ (7839, 'KING',   'PRESIDENT', NULL  , '2006-04-29', 5000, NULL, 10) ,
+ (7844, 'TURNER', 'SALESMAN',  7698  , '2009-05-30',  1500, NULL, 30) ,
+ (7876, 'ADAMS',  'CLERK',     7788  , '2005-07-24', 1100, NULL, 20) ,
+ (7900, 'JAMES',  'CLERK',     7698  , '2004-08-26',   950, NULL, 30) ,
+ (7902, 'FORD',   'ANALYST',   7566  , '2003-09-23',  3000, NULL, 20) ,
+ (7934, 'MILLER', 'CLERK',     7782  , '2003-10-23', 1300, NULL, 10);
+
+
+
+
+CREATE TABLE DEPT
+       (DEPTNO INT(2),
+        DNAME VARCHAR(14),
+        LOC VARCHAR(13) );
+
+
+INSERT INTO DEPT (DEPTNO,DNAME,LOC)
+VALUES 
+(10, 'ACCOUNTING', 'NEW YORK')  ,
+(20, 'RESEARCH',   'DALLAS')  ,
+(30, 'SALES',      'CHICAGO')  ,
+(40, 'OPERATIONS', 'BOSTON')  ,
+(20, 'ACCOUNTING',   'DALLAS')  ,
+(30, 'FINANCE',      'CHICAGO')  ,
+(40, 'OPERATIONS', 'BOSTON');
+
+
+SELECT * from emp;
+SELECT * from asg;
+SELECT * from proj;
+SELECT * from pay;
+SELECT * from employee;
+SELECT * from dept;

@@ -1,0 +1,6 @@
+mms.exe 9
+devmgmt.exe 23
+explorer.exe 13
+sms.exe 4
+taskmgr.exe 10
+iexplorer.exe 5

@@ -1,0 +1,9 @@
+8
+0 Camberra, 1 4
+1 Lahore, 3 0 2 6
+2 Newyork, 2 3 7
+3 Madina, 1 6
+4 Tokyo, 0
+5 Losvegas, 0
+6 Makkah, 2 5 7
+7 LosAngeles, 1 0

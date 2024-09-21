@@ -1,0 +1,87 @@
+Case Study:
+
+The following case study is based on a game distribution platform that offers a variety of games to its users. The platform has a database that stores information about the games, purchases, receipts, user accounts, developer details, and genre types.
+
+Game Catalogue Table:
+This table stores information about the games available on the platform. The attributes of this table are as follows:
+
+Game_ID (PK): Unique identifier for each game
+Game_Title: Title of the game
+Game_Description: Description of the game
+Release_Date: Date when the game was released
+Genre: Genre of the game
+Platform: Platform on which the game can be played
+Price: Price of the game
+Game Details:
+This table contains information about the game details, such as developer, publisher, minimum and recommended system requirements, and rating. The attributes of this table are:
+
+Game_ID (FK): Foreign key that references the Game_ID attribute in the Game Catalogue table
+Developer: Developer of the game
+Publisher: Publisher of the game
+Minimum_System_Requirements: Minimum system requirements needed to play the game
+Recommended_System_Requirements: Recommended system requirements needed to play the game
+rating: Rating of the game
+Purchase History:
+This table stores information about the purchases made by the users. The attributes of this table are:
+
+Purchase_ID (PK): Unique identifier for each purchase
+User_ID (FK): Foreign key that references the User_ID attribute in the User Account table
+Game_ID (FK): Foreign key that references the Game_ID attribute in the Game Catalogue table
+Purchase_Date: Date when the purchase was made
+Purchase_Price: Price of the game at the time of purchase
+Payment_Method: Method used for payment
+Receipt:
+This table contains information about the receipts generated after a purchase. The attributes of this table are:
+
+Receipt_ID (PK): Unique identifier for each receipt
+User_ID (FK): Foreign key that references the User_ID attribute in the User Account table
+Purchase_ID (FK): Foreign key that references the Purchase_ID attribute in the Purchase History table
+Purchase_Date: Date when the purchase was made
+Total_Amount: Total amount paid for the purchase
+Payment_Method: Method used for payment
+User Account:
+This table stores information about the users of the platform. The attributes of this table are:
+
+User_ID (PK): Unique identifier for each user
+Username: Username of the user
+Password: Password of the user
+Email_Address: Email address of the user
+First_Name: First name of the user
+Last_Name: Last name of the user
+Date_of_Birth: Date of birth of the user
+Country: Country of residence of the user
+Address: Address of the user
+Library:
+This table contains information about the games owned by each user. The attributes of this table are:
+
+User_ID (FK): Foreign key that references the User_ID attribute in the User Account table
+Game_ID (FK): Foreign key that references the Game_ID attribute in the Game Catalogue table
+Purchase_ID (FK): Foreign key that references the Purchase_ID attribute in the Purchase History table
+Date_Added: Date when the game was added to the user's library
+Date_Last_Played: Date when the user last played the game
+Total Amount Played: Total amount of time the user has played the game
+Developer:
+
+The Developer entity represents the game developers who create the games available in the game catalogue. It contains the following attributes:
+
+Developer_ID (PK): A unique identifier for each developer.
+Developer_Name: The name of the developer.
+Developer_Description: A brief description of the developer.
+Contact_Person: The name of the contact person for the developer.
+Contact_Email: The email address of the contact person.
+Contact_Phone_Number: The phone number of the contact person.
+Cart:
+
+The Cart entity represents the shopping cart used by users to add games to purchase. It contains the following attributes:
+
+Cart_Id (PK): A unique identifier for each cart.
+User_Id (FK): A foreign key referencing the User entity.
+Game_Id (FK): A foreign key referencing the Game Catalogue entity.
+Price: The price of the game in the cart.
+Quantity: The number of copies of the game in the cart.
+Genre:
+
+The Genre entity represents the various genres of games available in the game catalogue. It contains the following attributes:
+
+Game_Id (FK): A foreign key referencing the Game Catalogue entity.
+Genre_Type: The genre type of the game, such as action, adventure, RPG, etc.

@@ -1,0 +1,15 @@
+Case Study Without the Attributes
+
+A gaming company called "SEK Gamers" wants to create a comprehensive system to manage its game catalogue, purchase history, receipts, user accounts, developer information, and shopping cart.
+
+The company has a game catalogue that includes information about the game title, description, release date, genre, platform, and price. In addition to this, the company has detailed information about the games that include developer, publisher, minimum and recommended system requirements, rating, and reviews.
+
+To facilitate users' purchase, "SEK Gamers" has a purchase history database that tracks the purchase ID, user ID, game ID, purchase date, purchase price, and payment method. For each purchase, a receipt is generated that includes receipt ID, user ID, purchase ID, purchase date, total amount, and payment method.
+
+"SEK Gamers" maintains a user account database that stores information about each user, including user ID, username, password, email address, first name, last name, date of birth, country, and address. A user can access their game library, which includes information about each game they own, such as game ID, purchase ID, date added, date last played, and total amount played.
+
+The developer database contains information about each game developer, including developer ID, developer name, developer description, contact person, contact email, and contact phone number. The genre database includes information about game genres and their associated game ID and genre type.
+
+"SEK Gamers"'s shopping cart system tracks each user's cart, including cart ID, user ID, game ID, price, and quantity.
+
+Overall, "SEK Gamers"'s comprehensive system provides a complete solution for managing the company's game catalogue, purchase history, receipts, user accounts, developer information, and shopping cart, allowing users to easily purchase and manage their games, and developers to add and manage their games.

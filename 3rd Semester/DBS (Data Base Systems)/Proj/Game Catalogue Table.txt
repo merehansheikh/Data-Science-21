@@ -1,0 +1,64 @@
+Game Catalogue Table:
+Game_ID (PK)
+Game_Title
+Game_Description
+Release_Date
+Genre
+Platform
+Price
+Game Details:
+Game_ID (FK)
+Developer
+Publisher
+Minimum_System_Requirements
+Recommended_System_Requirements
+rating
+Purchase History:
+Purchase_ID (PK)
+User_ID (FK)
+Game_ID (FK)
+Purchase_Date
+Purchase_Price
+Payment_Method
+Receipt:
+Receipt_ID (PK)
+User_ID (FK)
+Purchase_ID (FK)
+Purchase_Date
+Total_Amount
+Payment_Method
+User Account:
+User_ID (PK)
+Username
+Password
+Email_Address
+First_Name
+Last_Name
+Date_of_Birth
+Country
+Address
+Library:
+User_ID (FK)
+Game_ID (FK)
+Purchase_ID (FK)
+Date_Added
+Date_Last_Played
+Total Amount Played
+Developer:
+Developer_ID (PK)
+Developer_Name
+Developer_Description
+Contact_Person
+Contact_Email
+Contact_Phone_Number
+Cart:
+Cart Id (pk)
+User Id(fK)
+Game Id(fk)
+price
+quantity
+Genre:
+Game Id(fk)
+genre type
+
+

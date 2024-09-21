@@ -1,0 +1,9 @@
+8
+0 Sahiwal, 1 6
+1 Lahore, 1 5
+2 Islamabad, 1 4
+3 Peshawar, 0
+4 Kasur, 0
+5 Quetta, 1 3
+6 Karachi, 2 0 1
+7 Multan, 0
