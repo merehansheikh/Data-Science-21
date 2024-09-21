@@ -1,0 +1,54 @@
+1.BSEF09M001 Hammad Khan                    
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		21			22		31		74		B
+	PF		15			14		25		54		D
+	DLD		18			20		22		60		C
+
+2.BSEF09M003 Younas Ahmad                   
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		00			30		29		59		C
+	PF		25			34		30		89		A+
+	DLD		15			10		10		35		F
+
+3.BSEF09M005 Riffat Kaleem                  
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		20			33		33		86		A+
+	PF		11			26		35		72		B
+	DLD		24			30		38		92		A+
+
+4.BSEF09M012 Barkat Jan                     
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		18			25		34		77		B+
+	PF		28			19		00		47		F
+	DLD		21			28		34		83		A-
+
+5.BITF09M002 Khawer Hayat                   
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		18			11		37		66		B-
+	PF		17			19		27		63		C+
+	DLD		22			31		34		87		A+
+
+6.BITF09M003 Kishwar Hameed                 
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		20			24		33		77		B+
+	PF		24			28		37		89		A+
+	DLD		15			19		26		60		C
+
+7.BITF09M010 Yasir Ubaid                    
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ICT		20			18		31		69		B-
+	PF		21			25		34		80		A-
+	DLD		22			29		33		84		A-
+
+8.BDSF09M007 Soban Hehe                     
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ICT		30			30		33		93		A+
+	PF		32			31		34		97		A+
+	DLD		29			34		33		96		A+
+
+9.BDSF09M030 Kashif Noor                    
+	Subject	Sessional	Midterm	Final	Total	Grade 
+	ITC		31			34		31		96		A+
+	PF		32			30		34		96		A+
+	DLD		33			30		33		96		A+
+
