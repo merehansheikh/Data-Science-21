@@ -1,0 +1,9 @@
+Final Exam Topics:
+Genetic algorithm, Naive Bayes Classification, Decision trees, Random forests, Neurons (biological vs. artificial), McCulloch-Pitts model, Perceptron, Multilayer Perceptron (MLP) with error backpropagation algorithm. 
+
+Resources: Slides, handouts, Class notes
+Books: Textbook by George F. Luger (GFL), Helping book by Ben Coppin (IL) 
+1. Genetic Algorithm (Chp 14: 14.1-14.8 (IL), (Chp 12:12.1 GFL)
+2. Decision Tree (ML_Book_Chp3 + Chp 10: 10.9 IL+ Chp 10: 10.3 GFL)+ Random Forests
+3. Naive Bayes Classifier ML_Book_Chp6_Selected
+4. Artificial Neural Networks (Chp 11: 11.1-11.4 IL)+(Chp 11: 11.0-11.3 GFL)
