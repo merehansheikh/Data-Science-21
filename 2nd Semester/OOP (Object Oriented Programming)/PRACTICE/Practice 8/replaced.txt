@@ -1,0 +1,9 @@
+Copy, paste contents of this practice file (using note pad or word pad or any other editor) to save in a file "text.txt".
+-. Open this file in your python program and read it line by line and print
+-. Read this file line by line and print numbers only (don't display other contents)
+-. Read this file and display total number of questions/ tasks
+-. Read this file and count number of words in this file
+-. Read this file and write into another file "newtext.txt". Open this new file in note pad or word pad or any other
+editor to see the contents of new file
+-. Read this file and write into another file without spaces, compare size of both files
+-. Read this file and write it into another file, replace numbers with hyphen
