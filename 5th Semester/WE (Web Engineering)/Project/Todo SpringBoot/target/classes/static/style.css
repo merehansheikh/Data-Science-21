@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+}
+
+
+.line-through {
+  text-decoration: line-through;
+}

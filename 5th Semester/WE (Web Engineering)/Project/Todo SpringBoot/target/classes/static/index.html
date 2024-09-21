@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+  <body class="min-h-screen flex items-center justify-center">
+    <div
+      class="bg-white p-8 rounded shadow-lg w-full max-w-md transition-transform transform"
+    >
+      <h1 class="text-3xl font-extrabold mb-6 text-center text-indigo-600">
+        Todo List
+      </h1>
+      <ul id="todo-list" class="list-none p-0 mb-4"></ul>
+      <form id="todo-form" class="mb-4">
+        <div class="mb-4">
+          <input
+            type="text"
+            id="todo-title"
+            placeholder="Title"
+            required
+            class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            type="text"
+            id="todo-description"
+            placeholder="Description"
+            required
+            class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+          />
+        </div>
+        <button
+          type="submit"
+          class="w-full bg-indigo-500 text-white py-3 rounded shadow hover:bg-indigo-600 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+        >
+          Add Todo
+        </button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
