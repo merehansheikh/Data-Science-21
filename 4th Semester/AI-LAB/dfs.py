@@ -1,5 +1,4 @@
 from copy import deepcopy
-import time
 
 
 def dfs(initial_state, goal_state, visited):
